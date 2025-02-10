@@ -1,10 +1,10 @@
 # Federated-Thermal-Dynamics-Modeling
 
-_This work innovates traditional model predictive control for the scheduling of thermostatically controlled loads. Inspired by "Smart Predict-then-Optimize", a "Smart Model-then-Control" strategy is proposed to learn a cost-effective model for the downstream control task. The actual control costs are reduced in multiple building types._
+_This work proposes a generalizable thermal dynamics modeling method by coordinating multiple buildings. It formulates a federated learning framework to facilitate collaborative modeling in a privacy-preserving way. It further identifies dual heterogeneity in both model structures and data distributions for federated learning, and then proposes a two-level personalization strategy combining similarity matrices and adaptive weighting to alleviate the impacts._
 
-Codes for submitted Paper "A Smart Model-then-Control Strategy for the Scheduling of Thermostatically Controlled Loads".
+Codes for submitted Paper "Generalizable Thermal Dynamics Modeling via Personalized Federated Learning".
 
-Authors: Xueyuan Cui, Boyuan Liu, Yehui Li, and Yi Wang.
+Authors: Xueyuan Cui, Dalin Qin, Jean-François Toubeau, François Vallée, and Yi Wang.
 
 ## Requirements
 Python version: 3.8.17
