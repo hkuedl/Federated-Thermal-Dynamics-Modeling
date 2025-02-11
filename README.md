@@ -27,8 +27,13 @@ where the introduction on the running order and each file's function is explaine
 
 Note: There is NO multi-GPU/parallelling training in our codes. 
 
-The required models as the warm start of SMC are saved in ```#Results```.
+### Results
+All models that are trained by the proposed method and other comparisons can be acquired in the folder ```#Results``` that can also be downloaded from [Google Drive](https://drive.google.com/drive/folders/1CRcTHjpDVNd9OAcIsWxOow3TneJLg-6V?usp=sharing)..
+
+In particular, ```Models_newcomb```, ```Models_oneW```, ```Models_fedavg```, and ```Models_single``` includes models from "DW_ada", ("DW_fix"&"SW_data"&"SW_model"), "SW_avg", and "Local" methods, respectively.
 
 ## Citation
 ```
 ```
+## Acknowledgments
+Package ```#Codes/torchdiffeq1/``` is modified based on the open code of [Neural ODE](https://github.com/rtqichen/torchdiffeq). The rapid development of this work would not have been possible without this open-source package. 
