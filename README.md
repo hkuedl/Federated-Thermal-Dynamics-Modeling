@@ -16,16 +16,14 @@ pip install requirements.txt
 
 ## Experiments
 ### Data
-All the data for experiments can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1CRcTHjpDVNd9OAcIsWxOow3TneJLg-6V?usp=sharing).
+All the data inputs for experiments can be acquired in ```Data``` here and ```Data_in``` that can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1CRcTHjpDVNd9OAcIsWxOow3TneJLg-6V?usp=sharing).
 
 ### Reproduction
-To reproduce the experiments of the proposed methods and comparisons for single-zone, 22-zone, and 90-zone buildings, please go to folders
+To reproduce the experiments of the proposed methods and comparisons in the paper, please go to the folder
 ```
-cd #Codes/Single-zone
-cd #Codes/22-zone
-cd #Codes/90-zone
+cd #Codes
 ```
-respectively. The introduction on the running order and each file's function is explained in ```Readme.md``` in the folder.
+where the introduction on the running order and each file's function is explained in ```readme.md```.
 
 Note: There is NO multi-GPU/parallelling training in our codes. 
 
