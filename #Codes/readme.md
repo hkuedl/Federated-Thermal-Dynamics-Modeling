@@ -1,8 +1,14 @@
 # File description
-```Archive_Model_ODE_OPT_Grad.py```: Reproduce the proposed method for all building types to obtain model accuracy and optimization results.
+```Med_Proposed.py```: Reproduce the proposed method for all buildings to obtain models and verify the accuracy results under six incentive-based demand response cases.
 
-```Archive_Model_ODE_then_OPT.py```: Reproduce the MTO comparison for model accuracy and optimization results, and provide the initial model for the proposed method. 
+```Med1_single.py```: Reproduce the comparison "Local" for model training and accuracy verification.
 
-```Archive_Model_Func.py```: Functions. 
+```Med2_FedAVG.py```: Reproduce the comparison "SW_avg" for model training and accuracy verification.
+
+```Med3_fix_data_model.py```: Reproduce the comparison "SW_data", "SW_model", and "DW_fix" for model training and accuracy verification.
+
+```WeightFed_OPT.py```: Reproduce the optimization results of all comparisons under price-based demand response.
+
+```Common_Func.py``` and ```WeightFed_Func.py```: Functions. 
 
 ```torchdiffeq1```: Modified library from [Neural ODE](https://github.com/rtqichen/torchdiffeq).
